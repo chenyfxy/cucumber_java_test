@@ -13,6 +13,7 @@
         <junit.version>4.12</junit.version>
         <cucumber.version>3.0.0</cucumber.version>
         <cucumber.pro.version>2.0.4</cucumber.pro.version>
+        <selenium.version>3.13.0</selenium.version>
         <maven.compiler.version>3.3</maven.compiler.version>
     </properties>
 
@@ -43,6 +44,12 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
         </dependency>
     </dependencies>
 
